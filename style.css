@@ -1,0 +1,223 @@
+/* styles given using the class name of the divisions */
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+  }
+
+.heading{
+   width: 570px;
+   height: 80px;
+   color: #000000;
+   background: #ffe5e5;
+   font-size: 50px;
+   text-align: center;
+   align-items: center;
+   padding: 20px;
+   text-shadow: 4px 2px 3px #ffee00;
+   font-family: Verdana, Geneva, Tahoma, sans-serif ;
+   border: 3px solid #ff0000;
+   margin: 30px auto;
+   border-radius: 10px;
+}
+.details{
+  width: 570px;
+  text-align: center;
+  margin: 5px auto;
+  font-size: 20px;
+  word-spacing: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-align: justify;
+}
+  .hero{
+    width: 700px;
+    height: 650px;
+    border: 3px solid red;
+    background-color: #00f7ff;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 10px;
+    
+  }
+  #main {
+    width: 620px;
+    height: 580px;
+    background-color: #fff;
+    position: absolute;
+    margin: 30px;
+    border-radius: 30px;
+    
+  }
+  .box{
+    width: 530px;
+    height: 410px;
+    margin: 90px auto;
+    background-color: #ffe5e5;
+    position: relative;
+    border-radius: 8px;
+  }
+  .smart{
+    color: #000000;
+    font-size: 30pxpx;
+    font-weight: bold;
+    margin-top: -38px;
+    font-size: 30px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-shadow: 4px 3px 4px #fffb02;
+    cursor: pointer;
+  }
+  .watch{
+    width: 350px;
+    height: 350px;
+    margin: 25px 100px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer ;
+  }
+  .smart_watch_image_list{
+    margin-left: -910px;
+    margin-top: -650px;
+   
+   } 
+  
+  .smart_watch_image_list img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #ff0000;
+    margin: 15px auto;
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+    padding: 10px;
+  }
+  .price{
+    width:380px;
+    height: 640px;
+    border: 1px solid red;
+    background-color:  #ffe5e5 ;
+    margin-left: 730px;
+    border-radius: 10px;
+  }
+  .rate{
+    font-size: 35px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #ffffff ;
+    cursor: pointer;
+  }
+
+
+ .del{
+  font-size: 20px;
+  margin-left: 20px;
+ }
+ .stock{
+  font-size: 25px;
+  color: #008000;
+  margin-left: 20px;
+ }
+ .loc{
+  font-size: 20px;
+  color: #000000;
+  margin-left: 20px;
+  cursor: pointer;
+ }
+ .sold{
+  font-size: 20px;
+  margin-left: 20px;
+ }
+ .Quan{
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: 400;
+ }
+ select{
+  width: 50%;
+  height: 40px;
+  font-size: 20px;
+  padding: px 4px;
+  margin-bottom: 15px;
+  cursor: pointer;
+ }
+ .btn{
+  margin: 5px 20px;
+  
+ }
+
+ .add{
+  width: 340px;
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 20px;
+  border-radius: 30px;
+  background-color: #ffee00;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  
+  
+ }
+.buy{
+  width: 340px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 30px;
+  background-color: #ffa500;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+.wish{
+  width: 340px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 30px;
+  background-color: #f1f1f1;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+.add:hover {
+  background-color:  #ffd900;
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px #ffffff ;
+  font-weight: 700;
+}
+.buy:hover {
+  background-color: #ff4500;
+  transition: 0.6s;
+  text-shadow: 1px 1px 1px #ffffff ;
+  font-weight: 700;
+}
+.wish:hover {
+  background-color: #b8b8b8;
+  transition: 0.6s;
+  text-shadow: 1px 1px 1px #ffffff ;
+  font-weight: 700;
+}
+
+.list h2{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.list li{
+font-size: 20px;
+padding: 5px;
+text-align: justify;
+font-weight: 600;
+}
+.list a{
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
